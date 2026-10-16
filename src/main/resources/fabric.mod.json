@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "basehunter",
+  "version": "1.0.0",
+  "name": "Base & Amethyst Hunter",
+  "description": "ESP and cluster tracers for finding bases and amethyst clusters.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.basehunter.BaseHunterMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
